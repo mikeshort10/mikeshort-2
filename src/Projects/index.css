@@ -1,0 +1,70 @@
+@font-face {
+	font-family: lumos;
+	src: url(HARRP___.TTF);
+}
+@font-face {
+	font-family: star-trek;
+	src: url(DISCOVERY_STAR_TYPE.ttf);
+}
+@font-face {
+	font-family: waver;
+	src: url(waver.ttf);
+}
+.projects-container {
+	height: 100%;
+	width: 60vw;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.projects-container a {
+	text-decoration: none;
+	color: black;
+}
+
+.project-header {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-project {
+	margin: 3px;
+}
+
+.project-logo {
+	height: 20vh;
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-gitsquare {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.project-link {
+	height: 5vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	top: 0;
+	font-family: Arial, Helvetica, sans-serif, a;
+	font-family-color: white;
+}
+
+.project-img {
+	width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */

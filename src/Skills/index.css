@@ -1,0 +1,67 @@
+@keyframes bounceDown {
+	from {
+		top: -50%;
+	}
+	to {
+		top: 150%;
+	}
+}
+@keyframes bounceRight {
+	from {
+		left: 150%;
+	}
+	to {
+		left: -50%;
+	}
+}
+.skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	line-height: 200%;
+}
+
+.skills-container {
+	width: 50%;
+	background: black;
+	color: white;
+	opacity: 0.7;
+	margin: 50px auto;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.skills-header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+.tech-stack-header {
+	height: 10%;
+	background: black;
+	color: white;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 20;
+}
+
+.tech {
+	padding: 10px;
+	position: absolute;
+	border-radius: 5px;
+}
+
+.skills-list {
+	text-align: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+/*# sourceMappingURL=index.css.map */

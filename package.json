@@ -1,31 +1,46 @@
 {
-  "name": "new-site",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "new-site",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"jquery": "^3.4.0",
+		"onchange": "^5.2.0",
+		"prettier": "^1.17.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-scripts": "3.0.0",
+		"sass": "^1.19.0",
+		"typescript": "^3.4.5"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"prettier-watch": "onchange '**/*.js' '**/*.jsx' '**/*.json' '**/*.sass' '**/*.css' -- prettier --write {{changed}}",
+		"sass": "sass --watch .",
+		"dev": "yarn prettier-watch && yarn sass"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"prettier": {
+		"tabWidth": 4,
+		"useTabs": true,
+		"trailingComma": "all",
+		"bracketSpacing": true
+	}
 }
